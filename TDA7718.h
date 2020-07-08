@@ -31,8 +31,8 @@ class TDA7718
  // fd_qd - 0 FD / 1 QD2 
  // main_gain - 0 0dB / 1 3dB
  // sub_flat -  0 off / 1 on
-        void setSoft_mute(byte soft_mute, byte pin_iic, byte soft_mute_time, byte sub_in, byte sub_eneble, byte fast_ch, byte anty_filter);// 0,0,1,0,0,0,0
- // soft_mute -  0 off / 1 on
+        void setSoft_mute(byte soft_mute, byte pin_iic, byte soft_mute_time, byte sub_in, byte sub_eneble, byte fast_ch, byte anty_filter);// 1,0,1,0,0,0,0
+ // soft_mute -  0 on / 1 off
  // pin_iic - 0 pin_and_iic / 1 iic 
  // soft_mute_time - 0 0.48ms / 1 0.96ms / 2 7.68ms / 3 15.63ms
  // sub_in - 0 input_mux / 1 bass_output  
